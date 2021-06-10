@@ -10,8 +10,20 @@
 @import url(./partials/_global.css);
 
 /* contact us */
+
+.address{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.address n{
+    padding :20px 20px;
+}
 html{
     scroll-behavior: smooth;
+}
+#profile-img{
+    border-radius: 50px;
 }
 .click-here{
     padding-top: 100px;
@@ -35,8 +47,7 @@ html{
 
 .contact{
     background:rgb(184, 169, 184);
-    height: 711px;
-    
+    height: 655px;
 }
 .text-center{
     text-align: center;

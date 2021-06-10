@@ -46,6 +46,9 @@
     .education{
         display: inline-block;
     }
+    .address{
+        display: inline-block;
+    }
     .site-main .brand-area .experience-area .call-area{
         padding-left: 3%;
     }

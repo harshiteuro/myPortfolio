@@ -104,7 +104,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-image">
-                            <img src="./img/img.jpg" alt="About us" class="img-fluid">
+                            <img src="./img/img.jpg" alt="About us"  id="profile-img" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
@@ -119,7 +119,7 @@
                                 
                             </p>
                             <p class="para">
-                                An CSE third year student at Shri Ramswaroop Memorial University,a software development and Competetive programming enthusiast Proficient in Data structure and Algorithms with JAVA, have hands on experience in html,css,javascrip and Machine Learning Looking forward to gain experience and contribute in different technologies.
+                                An CSE third year student at Shri Ramswaroop Memorial University,A software development and Competetive programming enthusiast Proficient in Data structure and Algorithms with JAVA, have hands on experience in html,css,javascript and Machine Learning Looking forward to gain experience and contribute in different technologies.
                             </p>
                         </div>
                         <a href="https://drive.google.com/file/d/19v7iy9mZVfcvUEUGewq7wfa6OS0DPjni/view?usp=sharing" target="_blank"><button  type="button" class="btn button primary-button text-uppercase">Download Resume</button></a>
@@ -181,7 +181,7 @@
 
 
           <section class="container">
-              <div class="heading" id="Education"><h1 class="text-uppercase">Education</h1></div>
+              <div class="heading" id="Education"><h1 class="text-uppercase"><i class="fas fa-graduation-cap"></i>Education</h1></div>
               <div class="education container">
                 
                   <div class="college">
@@ -317,19 +317,32 @@
     <section class="contact container" id="contact">
         <h2 class="text-center" id="Contact">Contact Us</h2>
         <div class="form">
+            <form method="POST" autocomplete="off" name="google-sheet">
             <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
             <input class="form-input" type="text" name="email" id="email" placeholder="Enter Your Email">
-            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ask if Any Query"></textarea>
-            <button class="btn btn-dark">Submit</button>
-
-            
-            <n>Address:sector:17/1098 Indira Nagar,Lucknow</n><br>
-            <n>Phone:+91-7565823869</n><br>
-            <n> E-mail:harshiteuro@gmai.com</n><br>
-            
+            <textarea class="form-input" name="query" id="text" cols="30" rows="10" placeholder="Ask if Any Query"></textarea>
+            <button type="submit" name="submit" class="btn btn-dark">Submit</button>
+            </form>
         </div>
-
     </section>
+
+    <div class="address">
+        <div>
+            <n><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>Address:sector:17/1098 Indira Nagar,Lucknow</n><br>
+        </div>
+        <div>
+            <n><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-inbound-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/>
+              </svg>Phone:+91-7565823869</n><br>
+        </div>
+        <div>
+            <n><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z"/>
+              </svg> E-mail:harshiteuro@gmai.com</n><br>
+        </div>
+    </div>
 
     <footer class="footer-area">
         <div class="container">
@@ -350,7 +363,6 @@
         </div>
     </footer>
 
-
     <!--  Jquery js file  -->
     <script src="./js/jquery.3.4.1.js"></script>
 
@@ -368,7 +380,6 @@
 
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
-
 
 </body>
 
